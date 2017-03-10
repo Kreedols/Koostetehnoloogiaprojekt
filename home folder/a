@@ -1,0 +1,8 @@
+#!/bin/dash
+#
+echo -n "Sisesta arv: "
+read arv
+if [ $arv -gt 0 ]
+then echo "$arv on positiivne."
+else echo "$arv on negatiivne."
+fi

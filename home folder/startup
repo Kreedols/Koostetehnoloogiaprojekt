@@ -1,0 +1,9 @@
+#!/bin/bash
+
+user=$($user)
+date=$(date)
+
+echo $date
+echo "TERE" $user
+
+omxplayer -p -o local a.mp3

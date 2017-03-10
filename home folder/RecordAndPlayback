@@ -1,0 +1,2 @@
+arecord a.mp3 -D sysdefault:CARD=1
+omxplayer -po local a.mp3
