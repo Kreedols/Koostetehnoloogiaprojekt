@@ -1,0 +1,78 @@
+------------------------------------------------------------
+/usr/bin/pip run on Thu Mar  9 18:10:33 2017
+Downloading/unpacking python-vlc
+  Getting page https://pypi.python.org/simple/python-vlc/
+  URLs to search for versions for python-vlc:
+  * https://pypi.python.org/simple/python-vlc/
+  Analyzing links from page https://pypi.python.org/simple/python-vlc/
+    Found link https://pypi.python.org/packages/43/ea/f2726b9eca7ded969d9671c583d5079f2486b8d3454f4e9d6649e0455909/python-vlc-1.1.2.tar.gz#md5=72238ce66326529a3f7f32c5283b39f6 (from https://pypi.python.org/simple/python-vlc/), version: 1.1.2
+    Found link https://pypi.python.org/packages/62/74/6961c7394074a772039e22a7935122c80d00ac78e209bdb5b6109bd8dd86/python-vlc-1.1.0.tar.gz#md5=1a7f1056807604bdc289b18eb737da2d (from https://pypi.python.org/simple/python-vlc/), version: 1.1.0
+    Skipping link https://pypi.python.org/packages/74/4f/d6a533d1adf42dfaff8e46d721c141504e089d56b5364b9a2a2f6da1e0f5/python_vlc-1.1.2-py3.4.egg#md5=da9d7c3e26ee5f871461c5ed2cf79786 (from https://pypi.python.org/simple/python-vlc/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/75/bc/0062b5ac9c1584ce55876ebda7d1c44000647654a3860faab41629f8f4e5/python_vlc-1.1.2-py2.7.egg#md5=93113785f851fe647c5836320859e11f (from https://pypi.python.org/simple/python-vlc/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/de/c1/f24a749b9f691ae9270d8fd7825f50264752b1e770048b79f3e2decfa493/python-vlc-1.1.1.tar.gz#md5=b0bd17a81c68e2aac1f2494013696611 (from https://pypi.python.org/simple/python-vlc/), version: 1.1.1
+  Using version 1.1.2 (newest of versions: 1.1.2, 1.1.1, 1.1.0)
+  Downloading from URL https://pypi.python.org/packages/43/ea/f2726b9eca7ded969d9671c583d5079f2486b8d3454f4e9d6649e0455909/python-vlc-1.1.2.tar.gz#md5=72238ce66326529a3f7f32c5283b39f6 (from https://pypi.python.org/simple/python-vlc/)
+  Running setup.py (path:/tmp/pip-build-dltlpm/python-vlc/setup.py) egg_info for package python-vlc
+    WARNING:root:This script should be run from a VLC tree. Falling back to pre-generated file.
+    running egg_info
+    creating pip-egg-info/python_vlc.egg-info
+    writing pip-egg-info/python_vlc.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/python_vlc.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/python_vlc.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/python_vlc.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/python_vlc.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/python_vlc.egg-info/SOURCES.txt'
+  Source in /tmp/pip-build-dltlpm/python-vlc has version 1.1.2, which satisfies requirement python-vlc
+Installing collected packages: python-vlc
+  Running setup.py install for python-vlc
+    Running command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-dltlpm/python-vlc/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-MYUmFC-record/install-record.txt --single-version-externally-managed --compile
+    WARNING:root:This script should be run from a VLC tree. Falling back to pre-generated file.
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-armv6l-2.7
+    copying vlc.py -> build/lib.linux-armv6l-2.7
+    running install_lib
+    copying build/lib.linux-armv6l-2.7/vlc.py -> /usr/local/lib/python2.7/dist-packages
+    error: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/vlc.py'
+    Complete output from command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-dltlpm/python-vlc/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-MYUmFC-record/install-record.txt --single-version-externally-managed --compile:
+    WARNING:root:This script should be run from a VLC tree. Falling back to pre-generated file.
+
+running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-armv6l-2.7
+
+copying vlc.py -> build/lib.linux-armv6l-2.7
+
+running install_lib
+
+copying build/lib.linux-armv6l-2.7/vlc.py -> /usr/local/lib/python2.7/dist-packages
+
+error: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/vlc.py'
+
+----------------------------------------
+Cleaning up...
+Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-dltlpm/python-vlc/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-MYUmFC-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip-build-dltlpm/python-vlc
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 295, in run
+    requirement_set.install(install_options, global_options, root=options.root_path)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1436, in install
+    requirement.install(install_options, global_options, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 707, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.7/dist-packages/pip/util.py", line 716, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-dltlpm/python-vlc/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-MYUmFC-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip-build-dltlpm/python-vlc

@@ -1,0 +1,6 @@
+3e56bdad2d910c27d0a72def02109d9b  usr/lib/arm-linux-gnueabihf/libSDL_mixer-1.2.so.0.12.0
+a0ec6a95b17c6d5be21e7ad86f86b9f5  usr/share/doc/libsdl-mixer1.2/README
+269d8dedfa0e744bd0de237b42cabe31  usr/share/doc/libsdl-mixer1.2/changelog.Debian.gz
+66e952a84b27919d7221739ec07775a1  usr/share/doc/libsdl-mixer1.2/changelog.gz
+3dfc0ead3b7f60708bd34a405f4e46da  usr/share/doc/libsdl-mixer1.2/copyright
+68537cb8a5f2594b42417997b4d76c9d  usr/share/lintian/overrides/libsdl-mixer1.2

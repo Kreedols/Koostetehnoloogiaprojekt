@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libllvm3.9
+/usr/share/doc
+/usr/share/doc/libllvm3.9
+/usr/share/doc/libllvm3.9/NEWS.Debian.gz
+/usr/share/doc/libllvm3.9/changelog.Debian.gz
+/usr/share/doc/libllvm3.9/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libLLVM-3.9.so.1
+/usr/lib/arm-linux-gnueabihf/libLLVM-3.9.so

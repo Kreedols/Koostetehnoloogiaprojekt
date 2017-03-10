@@ -1,0 +1,10 @@
+01f9407b803de8bdaa8e089cbe3821b4  usr/sbin/safe_finger
+9f1336a44f743b0ad4a4de9fbda29658  usr/sbin/tcpd
+011bb68270e6b16353938f508cc64c85  usr/sbin/tcpdchk
+c8cbf8b4f7202908422e81756d5c6acd  usr/sbin/tcpdmatch
+6e66cee40f10ad3fe9833255206138dc  usr/sbin/try-from
+52025101263fdd2d7cec3ab9d60805af  usr/share/man/man8/safe_finger.8.gz
+9121ac5223177e5f6f04534e36569f8c  usr/share/man/man8/tcpd.8.gz
+89dc5b949d6bce5a9f451cc6eb53a54b  usr/share/man/man8/tcpdchk.8.gz
+f73da52070b80f37b5e9139c11cd5eed  usr/share/man/man8/tcpdmatch.8.gz
+5c1f7ac031ce453452602ab717cc67e8  usr/share/man/man8/try-from.8.gz

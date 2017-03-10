@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libSDL_mixer-1.2.so.0.12.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsdl-mixer1.2
+/usr/share/doc/libsdl-mixer1.2/README
+/usr/share/doc/libsdl-mixer1.2/copyright
+/usr/share/doc/libsdl-mixer1.2/changelog.Debian.gz
+/usr/share/doc/libsdl-mixer1.2/changelog.gz
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libsdl-mixer1.2
+/usr/lib/arm-linux-gnueabihf/libSDL_mixer-1.2.so.0

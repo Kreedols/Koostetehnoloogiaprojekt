@@ -1,0 +1,16 @@
+# adjust volume
+KEY_VOLUMEUP			1	/usr/bin/amixer set Master 5%+
+KEY_VOLUMEUP+KEY_LEFTSHIFT	1	/usr/bin/amixer set Master 15%+ # with modifier
+KEY_VOLUMEUP			2	/usr/bin/amixer set Master 5%+ # even while holding
+KEY_VOLUMEDOWN			1	/usr/bin/amixer set Master 5%-
+KEY_VOLUMEDOWN+KEY_LEFTSHIFT	1	/usr/bin/amixer set Master 15%-
+KEY_VOLUMEDOWN			2	/usr/bin/amixer set Master 5%-
+# only trigger commands when in "media" mode
+KEY_KPPLUS@media		1	/usr/bin/mpc next # next song
+KEY_KPMINUS@media		1	/usr/bin/mpc prev # next song
+# only used if in the nameless default mode
+KEY_F12@			1	@media # switch to media mode
+KEY_F12@media			1	@ # switch back to nameless default mode
+KEY_KPASTERISK			1	<KEY_VOLUMEDOWN # emit a synthetic key event through uinput
+# enable trigger only on devices tagged "sys"
+<sys>KEY_F11			1	id

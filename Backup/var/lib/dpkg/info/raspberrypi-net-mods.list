@@ -1,0 +1,10 @@
+/.
+/etc
+/etc/network
+/etc/network/if-pre-up.d
+/etc/network/if-pre-up.d/01-wpa-config-copy
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/raspberrypi-net-mods
+/usr/share/doc/raspberrypi-net-mods/changelog.gz

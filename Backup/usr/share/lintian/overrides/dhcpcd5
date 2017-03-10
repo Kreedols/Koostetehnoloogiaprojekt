@@ -1,0 +1,2 @@
+dhcpcd5: init.d-script-missing-dependency-on-remote_fs etc/init.d/dhcpcd: required-start
+dhcpcd5: init.d-script-missing-dependency-on-remote_fs etc/init.d/dhcpcd: required-stop

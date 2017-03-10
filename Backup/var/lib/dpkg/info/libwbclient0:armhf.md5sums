@@ -1,0 +1,5 @@
+7694b62b18ee2933f0a843d4a0c91ac9  usr/lib/arm-linux-gnueabihf/libwbclient.so.0.12
+e48c4e1edd71a3fe5a780dcbed096948  usr/lib/arm-linux-gnueabihf/samba/libwinbind-client.so.0
+e36801eead78cc4a9aa4d90c32d0a044  usr/share/doc/libwbclient0/NEWS.Debian.gz
+688b5b9810d85f9bbe49963d69ba0fe6  usr/share/doc/libwbclient0/changelog.Debian.gz
+3dea63680a21ceedde18cdceb016390f  usr/share/doc/libwbclient0/copyright

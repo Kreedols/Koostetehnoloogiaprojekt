@@ -1,0 +1,9 @@
+auto
+/sbin/dhcpcd
+dhcpcd.8.gz
+/usr/share/man/man8/dhcpcd.8.gz
+
+/sbin/dhcpcd5
+50
+/usr/share/man/man8/dhcpcd5.8.gz
+

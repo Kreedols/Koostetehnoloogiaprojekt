@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libjim.so.0.75
+/usr/share
+/usr/share/doc
+/usr/share/doc/libjim0.75
+/usr/share/doc/libjim0.75/copyright
+/usr/share/doc/libjim0.75/changelog.Debian.gz

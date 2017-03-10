@@ -1,0 +1,31 @@
+#!/bin/sh -e
+
+update-alternatives --quiet --install /sbin/dhcpcd dhcpcd /sbin/dhcpcd5 50 \
+	--slave /usr/share/man/man8/dhcpcd.8.gz dhcpcd.8.gz \
+		/usr/share/man/man8/dhcpcd5.8.gz
+
+addgroup --quiet --system netdev || true
+
+chown root:netdev /etc/dhcpcd.conf
+chmod 664 /etc/dhcpcd.conf
+# Automatically added by dh_systemd_enable
+# This will only remove masks created by d-s-h on package removal.
+deb-systemd-helper unmask dhcpcd.service >/dev/null || true
+
+# was-enabled defaults to true, so new installations run enable.
+if deb-systemd-helper --quiet was-enabled dhcpcd.service; then
+	# Enables the unit on first installation, creates new
+	# symlinks on upgrades if the unit file has changed.
+	deb-systemd-helper enable dhcpcd.service >/dev/null || true
+else
+	# Update the statefile to add new symlinks (if any), which need to be
+	# cleaned up on purge. Also remove old symlinks.
+	deb-systemd-helper update-state dhcpcd.service >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/dhcpcd" ]; then
+	update-rc.d dhcpcd defaults >/dev/null || exit $?
+fi
+# End automatically added section
+

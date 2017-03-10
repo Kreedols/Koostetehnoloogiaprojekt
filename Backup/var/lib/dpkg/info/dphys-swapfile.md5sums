@@ -1,0 +1,10 @@
+758c7a3ff1b75c282d4b6ad1f1a62911  sbin/dphys-swapfile
+8d6e8a8add045bc08dcac81c1b8344b3  usr/share/doc/dphys-swapfile/FAQ
+8e2c0ec600f41df578a3dd71aea89092  usr/share/doc/dphys-swapfile/NEWS.Debian.gz
+8907afbc3439c94f7b88b52cf35d2f79  usr/share/doc/dphys-swapfile/README
+e0b688ef4f0cf34f80fc9bf5cd3e9093  usr/share/doc/dphys-swapfile/changelog.Debian.gz
+c6f2be3085e7335328922a630467c13b  usr/share/doc/dphys-swapfile/changelog.gz
+9b1a4780cfd2157436a6ef302413e2b6  usr/share/doc/dphys-swapfile/copyright
+39b5ed8b972118de256190b444ed4c60  usr/share/doc/dphys-swapfile/examples/dphys-swapfile.example
+a968489942a075b3b4848bbf720a5dbf  usr/share/doc/dphys-swapfile/examples/init.d.example
+4efd334b67cd7dbd96603fc6652df0fd  usr/share/man/man8/dphys-swapfile.8.gz

@@ -1,0 +1,65 @@
+[[32m  OK  [0m] Started Remount Root and Kernel File Systems.
+[[32m  OK  [0m] Reached target Local File Systems (Pre).
+         Starting Load/Save Random Seed...
+[[32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[32m  OK  [0m] Started Load/Save Random Seed.
+[[32m  OK  [0m] Found device /dev/mmcblk0p1.
+         Starting File System Check on /dev/mmcblk0p1...
+[[32m  OK  [0m] Reached target Paths.
+[   10.458514] systemd-fsck[174]: fsck.fat 3.0.27 (2014-11-12)
+[   10.466063] systemd-fsck[174]: /dev/mmcblk0p1: 127 files, 41512/127006 clusters
+[[32m  OK  [0m] Started File System Check on /dev/mmcblk0p1.
+         Mounting /boot...
+[[32m  OK  [0m] Mounted /boot.
+[[32m  OK  [0m] Reached target Local File Systems.
+         Starting Tell Plymouth To Write Out Runtime Data...
+         Starting Create Volatile Files and Directories...
+[[32m  OK  [0m] Reached target Remote File Systems.
+         Starting Trigger Flushing of Journal to Persistent Storage...
+         Starting LSB: Prepare console...
+         Starting LSB: Switch to ondemand cpu governor (unless ... is pressed)...
+         Starting LSB: Raise network interfaces....
+[[32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[32m  OK  [0m] Started Create Volatile Files and Directories.
+[[32m  OK  [0m] Started Trigger Flushing of Journal to Persistent Storage.
+         Starting Update UTMP about System Boot/Shutdown...
+[[32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[32m  OK  [0m] Started LSB: Prepare console.
+         Starting LSB: Set console font and keymap...
+[[32m  OK  [0m] Started LSB: Switch to ondemand cpu governor (unless s...ey is pressed).
+[[32m  OK  [0m] Reached target Sound Card.
+[[32m  OK  [0m] Started LSB: Set console font and keymap.
+[[32m  OK  [0m] Started LSB: Raise network interfaces..
+[[32m  OK  [0m] Reached target System Initialization.
+[[32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[[32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[32m  OK  [0m] Reached target Sockets.
+[[32m  OK  [0m] Reached target Timers.
+         Starting Restore Sound Card State...
+[[32m  OK  [0m] Reached target Basic System.
+         Starting dhcpcd on all interfaces...
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting System Logging Service...
+         Starting Regular background program processing daemon...
+[[32m  OK  [0m] Started Regular background program processing daemon.
+         Starting D-Bus System Message Bus...
+[[32m  OK  [0m] Started D-Bus System Message Bus.
+[[32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+         Starting Login Service...
+         Starting LSB: triggerhappy hotkey daemon...
+         Starting LSB: Autogenerate and use a swap file...
+[[32m  OK  [0m] Started System Logging Service.
+[[32m  OK  [0m] Started Restore Sound Card State.
+[[32m  OK  [0m] Started Login Service.
+[[32m  OK  [0m] Started LSB: triggerhappy hotkey daemon.
+[[32m  OK  [0m] Started LSB: Autogenerate and use a swap file.
+[[0m[31m*     [0m] A start job is running for dhcpcd on all interfaces (17s / 1min 39s)[K[[1;31m*[0m[31m*    [0m] A start job is running for dhcpcd on all interfaces (17s / 1min 39s)[K[[31m*[1;31m*[0m[31m*   [0m] A start job is running for dhcpcd on all interfaces (18s / 1min 39s)[K[ [31m*[1;31m*[0m[31m*  [0m] A start job is running for dhcpcd on all interfaces (19s / 1min 39s)[K[  [31m*[1;31m*[0m[31m* [0m] A start job is running for dhcpcd on all interfaces (19s / 1min 39s)[K[   [31m*[1;31m*[0m[31m*[0m] A start job is running for dhcpcd on all interfaces (20s / 1min 39s)[K[    [31m*[1;31m*[0m] A start job is running for dhcpcd on all interfaces (20s / 1min 39s)[K[     [31m*[0m] A start job is running for dhcpcd on all interfaces (21s / 1min 39s)[K[    [31m*[1;31m*[0m] A start job is running for dhcpcd on all interfaces (21s / 1min 39s)[K[   [31m*[1;31m*[0m[31m*[0m] A start job is running for dhcpcd on all interfaces (22s / 1min 39s)[K[  [31m*[1;31m*[0m[31m* [0m] A start job is running for dhcpcd on all interfaces (23s / 1min 39s)[K[ [31m*[1;31m*[0m[31m*  [0m] A start job is running for dhcpcd on all interfaces (23s / 1min 39s)[K[[31m*[1;31m*[0m[31m*   [0m] A start job is running for dhcpcd on all interfaces (24s / 1min 39s)[K[[1;31m*[0m[31m*    [0m] A start job is running for dhcpcd on all interfaces (24s / 1min 39s)[K[[0m[31m*     [0m] A start job is running for dhcpcd on all interfaces (25s / 1min 39s)[K[[1;31m*[0m[31m*    [0m] A start job is running for dhcpcd on all interfaces (26s / 1min 39s)[K[[31m*[1;31m*[0m[31m*   [0m] A start job is running for dhcpcd on all interfaces (26s / 1min 39s)[K[ [31m*[1;31m*[0m[31m*  [0m] A start job is running for dhcpcd on all interfaces (27s / 1min 39s)[K[  [31m*[1;31m*[0m[31m* [0m] A start job is running for dhcpcd on all interfaces (27s / 1min 39s)[K[   [31m*[1;31m*[0m[31m*[0m] A start job is running for dhcpcd on all interfaces (28s / 1min 39s)[K[    [31m*[1;31m*[0m] A start job is running for dhcpcd on all interfaces (28s / 1min 39s)[K[     [31m*[0m] A start job is running for dhcpcd on all interfaces (29s / 1min 39s)[K[    [31m*[1;31m*[0m] A start job is running for dhcpcd on all interfaces (30s / 1min 39s)[K[   [31m*[1;31m*[0m[31m*[0m] A start job is running for dhcpcd on all interfaces (30s / 1min 39s)[K[  [31m*[1;31m*[0m[31m* [0m] A start job is running for dhcpcd on all interfaces (31s / 1min 39s)[K[ [31m*[1;31m*[0m[31m*  [0m] A start job is running for dhcpcd on all interfaces (31s / 1min 39s)[K[[31m*[1;31m*[0m[31m*   [0m] A start job is running for dhcpcd on all interfaces (32s / 1min 39s)[K[[1;31m*[0m[31m*    [0m] A start job is running for dhcpcd on all interfaces (33s / 1min 39s)[K[[0m[31m*     [0m] A start job is running for dhcpcd on all interfaces (33s / 1min 39s)[K[[1;31m*[0m[31m*    [0m] A start job is running for dhcpcd on all interfaces (34s / 1min 39s)[K[[31m*[1;31m*[0m[31m*   [0m] A start job is running for dhcpcd on all interfaces (34s / 1min 39s)[K[ [31m*[1;31m*[0m[31m*  [0m] A start job is running for dhcpcd on all interfaces (35s / 1min 39s)[K[  [31m*[1;31m*[0m[31m* [0m] A start job is running for dhcpcd on all interfaces (35s / 1min 39s)[K[   [31m*[1;31m*[0m[31m*[0m] A start job is running for dhcpcd on all interfaces (36s / 1min 39s)[K[    [31m*[1;31m*[0m] A start job is running for dhcpcd on all interfaces (37s / 1min 39s)[K[     [31m*[0m] A start job is running for dhcpcd on all interfaces (37s / 1min 39s)[K[    [31m*[1;31m*[0m] A start job is running for dhcpcd on all interfaces (38s / 1min 39s)[K[   [31m*[1;31m*[0m[31m*[0m] A start job is running for dhcpcd on all interfaces (38s / 1min 39s)[K[  [31m*[1;31m*[0m[31m* [0m] A start job is running for dhcpcd on all interfaces (39s / 1min 39s)[K[ [31m*[1;31m*[0m[31m*  [0m] A start job is running for dhcpcd on all interfaces (40s / 1min 39s)[K[[31m*[1;31m*[0m[31m*   [0m] A start job is running for dhcpcd on all interfaces (40s / 1min 39s)[K[[1;31m*[0m[31m*    [0m] A start job is running for dhcpcd on all interfaces (41s / 1min 39s)[K[[0m[31m*     [0m] A start job is running for dhcpcd on all interfaces (41s / 1min 39s)[K[[32m  OK  [0m] Started dhcpcd on all interfaces.
+[[32m  OK  [0m] Reached target Network.
+         Starting /etc/rc.local Compatibility...
+         Starting Permit User Sessions...
+[[32m  OK  [0m] Reached target Network is Online.
+         Starting LSB: Start NTP daemon...
+[[32m  OK  [0m] Started /etc/rc.local Compatibility.
+[[32m  OK  [0m] Started Permit User Sessions.
+         Starting Hold until boot process finishes up...
+         Starting Terminate Plymouth Boot Screen...

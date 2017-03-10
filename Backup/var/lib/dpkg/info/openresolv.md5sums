@@ -1,0 +1,12 @@
+cc04737aa00a9f06f5b72b8b3413fdd7  lib/resolvconf/dnsmasq
+394d65eb23c191f20ba33065cf61435d  lib/resolvconf/libc
+d15a49f512c5f5ade80777908eb4359a  lib/resolvconf/named
+9b3f2ac163bf75557656afc62271808b  lib/resolvconf/pdnsd
+a80cdd012dbc026c26d45ef0c24cf2bb  lib/resolvconf/unbound
+7b461531f475fe6bb084467ef80f22ee  sbin/resolvconf
+20c6a84b18570ce83e6d6451404e93dd  usr/share/doc/openresolv/README.Debian
+2214bb2c51f15dc1d19f175ab6f06f4c  usr/share/doc/openresolv/changelog.Debian.gz
+21f5bfc6a886220f5510fab2e0c5fb4c  usr/share/doc/openresolv/copyright
+3ba68b770f2c426aa6cad905f270b0cb  usr/share/lintian/overrides/openresolv
+51805f5d7ca3d25d12e853c75e741086  usr/share/man/man5/resolvconf.conf.5.gz
+a3794d6415ec79d31e3e01d6a6a2da09  usr/share/man/man8/resolvconf.8.gz

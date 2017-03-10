@@ -1,0 +1,6 @@
+- Migrate to pybuild and clean up debian/rules
+- Separate documentation into another binary package (python-pygame-doc?)
+- Run tests with all supported python versions (not just default one)
+- Run tests with xvfb
+
+...and other issues mentioned in https://lists.debian.org/debian-python/2013/05/msg00093.html

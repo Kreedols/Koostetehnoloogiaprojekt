@@ -1,0 +1,3 @@
+/etc/dphys-swapfile
+/etc/bash_completion.d/dphys-swapfile
+/etc/init.d/dphys-swapfile

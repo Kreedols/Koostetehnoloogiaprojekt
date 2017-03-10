@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libjack0
+/usr/share/doc/libjack0/README
+/usr/share/doc/libjack0/TODO
+/usr/share/doc/libjack0/AUTHORS
+/usr/share/doc/libjack0/copyright
+/usr/share/doc/libjack0/changelog.Debian.gz
+/usr/share/doc/libjack0/NEWS.Debian.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libjack.so.0.0.28
+/usr/lib/arm-linux-gnueabihf/libjack.so.0

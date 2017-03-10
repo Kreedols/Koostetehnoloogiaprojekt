@@ -1,0 +1,6 @@
+
+[testing]
+pytest
+scripttest>=1.3
+mock
+virtualenv>=1.10

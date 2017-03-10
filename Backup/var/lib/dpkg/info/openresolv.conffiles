@@ -1,0 +1,7 @@
+/etc/network/if-up.d/000resolvconf
+/etc/network/if-down.d/resolvconf
+/etc/ppp/ip-up.d/000resolvconf
+/etc/ppp/ip-down.d/000resolvconf
+/etc/resolvconf.conf
+/etc/dhcp3/dhclient-enter-hooks.d/resolvconf
+/etc/dhcp/dhclient-enter-hooks.d/resolvconf

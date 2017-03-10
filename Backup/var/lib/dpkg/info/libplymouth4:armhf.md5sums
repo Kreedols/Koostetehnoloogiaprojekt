@@ -1,0 +1,8 @@
+0a26cb3c6086a4586bcd6bb9ae508fc9  lib/arm-linux-gnueabihf/libply-boot-client.so.4.0.0
+9f2780066868ebee153337d0a4ff9dc7  lib/arm-linux-gnueabihf/libply-splash-core.so.4.0.0
+6b8f76b2f5056ddc9c99e05101cee11e  lib/arm-linux-gnueabihf/libply-splash-graphics.so.4.0.0
+928105cf43a1ae68065de9ce1e0434de  lib/arm-linux-gnueabihf/libply.so.4.0.0
+d89461e63c0a21b831de487d9cf44d54  usr/share/doc/libplymouth4/changelog.Debian.gz
+784349295b1c6370de5ff585743264db  usr/share/doc/libplymouth4/changelog.gz
+4f5ba62f69098b1259fe6ce819c14149  usr/share/doc/libplymouth4/copyright
+43eec4c38a06ffd795a570f5e85601b0  usr/share/lintian/overrides/libplymouth4

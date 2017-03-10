@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libportaudiocpp.so.0.0.12
+/usr/share
+/usr/share/doc
+/usr/share/doc/libportaudiocpp0
+/usr/share/doc/libportaudiocpp0/copyright
+/usr/share/doc/libportaudiocpp0/changelog.Debian.gz
+/usr/lib/arm-linux-gnueabihf/libportaudiocpp.so.0

@@ -1,0 +1,3 @@
+/etc/init.d/nfs-common
+/etc/request-key.d/id_resolver.conf
+/etc/default/nfs-common

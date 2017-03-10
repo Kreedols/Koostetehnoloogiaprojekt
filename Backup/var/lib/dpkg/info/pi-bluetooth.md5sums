@@ -1,0 +1,4 @@
+424030daf41312c0e2018a322b51a6d1  lib/systemd/system/hciuart.service
+714a590d312670b5e90e55609ae6cdd1  usr/bin/btuart
+e839ef611f95c12650108b502fd777c1  usr/share/doc/pi-bluetooth/changelog.gz
+703daedb588b40edabacf8f037c22a75  usr/share/doc/pi-bluetooth/copyright

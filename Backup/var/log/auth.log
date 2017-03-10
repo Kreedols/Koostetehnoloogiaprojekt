@@ -1,0 +1,166 @@
+Mar  3 16:18:51 raspberrypi systemd-logind[369]: New seat seat0.
+Mar  3 16:19:48 raspberrypi login[546]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  3 16:20:01 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/raspi-config
+Mar  3 16:20:01 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  3 16:22:27 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  3 16:23:16 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/raspi-config
+Mar  3 16:23:16 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  3 16:23:47 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  3 16:25:31 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/bash
+Mar  3 16:25:31 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  3 16:35:45 raspberrypi systemd-logind[361]: New seat seat0.
+Mar  3 16:36:17 raspberrypi login[445]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  7 14:27:18 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  7 14:27:18 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 14:28:56 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 14:29:06 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install vim
+Mar  7 14:29:06 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 14:30:32 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 14:31:15 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install omxplayer
+Mar  7 14:31:15 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 14:32:40 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 14:34:46 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/raspi-config
+Mar  7 14:34:46 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 14:35:47 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 14:35:53 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/reboot
+Mar  7 14:35:53 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 14:36:49 raspberrypi systemd-logind[375]: New seat seat0.
+Mar  7 14:37:01 raspberrypi login[568]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  7 14:39:01 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/raspi-config
+Mar  7 14:39:01 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 14:39:42 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 14:41:30 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/reboot
+Mar  7 14:41:30 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 14:42:22 raspberrypi systemd-logind[369]: New seat seat0.
+Mar  7 14:42:33 raspberrypi login[567]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  7 14:44:00 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  7 14:44:00 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 14:45:15 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 14:51:09 raspberrypi login[567]: pam_unix(login:session): session closed for user pi
+Mar  7 14:51:09 raspberrypi login[627]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  7 14:51:19 raspberrypi login[627]: pam_unix(login:session): session closed for user pi
+Mar  7 14:51:19 raspberrypi login[652]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  7 14:52:55 raspberrypi login[652]: pam_unix(login:session): session closed for user pi
+Mar  7 14:52:55 raspberrypi login[691]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  7 14:54:57 raspberrypi login[691]: pam_unix(login:session): session closed for user pi
+Mar  7 14:54:58 raspberrypi login[867]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  7 14:56:53 raspberrypi login[867]: pam_unix(login:session): session closed for user pi
+Mar  7 14:56:53 raspberrypi login[982]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  7 14:59:05 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install cmatrix sl
+Mar  7 14:59:05 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 14:59:08 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 14:59:14 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/shutdown
+Mar  7 14:59:14 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 14:59:14 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 15:00:29 raspberrypi systemd-logind[371]: New seat seat0.
+Mar  7 15:00:41 raspberrypi login[562]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  7 15:04:09 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install portaudio19-dev python-dev alsa-utils
+Mar  7 15:04:09 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 15:05:55 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 15:06:28 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install python-pip
+Mar  7 15:06:28 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 15:08:16 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 15:10:09 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install libav-tools
+Mar  7 15:10:09 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 15:13:33 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 15:13:39 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  7 15:13:39 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 15:14:58 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 15:15:15 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/reboot
+Mar  7 15:15:15 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 15:15:30 raspberrypi systemd-logind[355]: New seat seat0.
+Mar  7 15:15:42 raspberrypi login[561]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  7 15:16:18 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/shutdown
+Mar  7 15:16:18 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 15:16:18 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 15:17:01 raspberrypi CRON[617]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  7 15:17:01 raspberrypi CRON[617]: pam_unix(cron:session): session closed for user root
+Mar  7 15:17:15 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/shutdown now
+Mar  7 15:17:15 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 15:17:31 raspberrypi systemd-logind[368]: New seat seat0.
+Mar  7 15:18:04 raspberrypi login[477]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  7 15:24:10 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/shutdown 0
+Mar  7 15:24:10 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  7 15:24:10 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 15:24:26 raspberrypi systemd-logind[370]: New seat seat0.
+Mar  7 15:24:37 raspberrypi login[562]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 17:02:55 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install portaudio19-dev python-dev alsa-utils
+Mar  9 17:02:55 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 17:03:04 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  9 17:03:14 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install python-pip
+Mar  9 17:03:14 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 17:03:20 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  9 17:12:45 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install alsaaudio
+Mar  9 17:12:45 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 17:12:50 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  9 17:13:06 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  9 17:13:06 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 17:14:48 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  9 17:15:09 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install alsaaudio
+Mar  9 17:15:09 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 17:15:14 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  9 17:15:28 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install python-alsaaudio
+Mar  9 17:15:28 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 17:16:02 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  9 17:17:01 raspberrypi CRON[929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  9 17:17:01 raspberrypi CRON[929]: pam_unix(cron:session): session closed for user root
+Mar  9 17:28:57 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install python-pyaudio
+Mar  9 17:28:57 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 17:29:25 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  9 17:56:46 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install python-pygame
+Mar  9 17:56:46 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 17:59:14 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  9 18:10:49 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install python-vlc
+Mar  9 18:10:49 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 18:10:54 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  9 18:17:01 raspberrypi CRON[1990]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  9 18:17:01 raspberrypi CRON[1990]: pam_unix(cron:session): session closed for user root
+Mar  9 18:40:39 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install espeak
+Mar  9 18:40:39 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 18:41:29 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  9 19:17:01 raspberrypi CRON[3040]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  9 19:17:01 raspberrypi CRON[3040]: pam_unix(cron:session): session closed for user root
+Mar  9 20:10:56 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/shutdown now
+Mar  9 20:10:56 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 20:11:12 raspberrypi systemd-logind[365]: New seat seat0.
+Mar  9 20:11:45 raspberrypi login[444]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 20:14:22 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/shutdown now
+Mar  9 20:14:22 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 20:14:38 raspberrypi systemd-logind[364]: New seat seat0.
+Mar  9 20:15:10 raspberrypi login[444]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 20:17:01 raspberrypi CRON[542]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  9 20:17:01 raspberrypi CRON[542]: pam_unix(cron:session): session closed for user root
+Mar  9 20:18:57 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/reboot
+Mar  9 20:18:57 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 20:19:13 raspberrypi systemd-logind[374]: New seat seat0.
+Mar  9 20:19:45 raspberrypi login[444]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 20:20:38 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/reboot
+Mar  9 20:20:38 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 20:20:54 raspberrypi systemd-logind[374]: New seat seat0.
+Mar  9 20:21:26 raspberrypi login[445]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 20:20:54 raspberrypi systemd-logind[376]: New seat seat0.
+Mar  9 20:21:26 raspberrypi login[446]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 20:30:54 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/shutdown now
+Mar  9 20:30:55 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 20:31:08 raspberrypi systemd-logind[370]: New seat seat0.
+Mar  9 20:31:40 raspberrypi login[439]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 20:31:09 raspberrypi systemd-logind[367]: New seat seat0.
+Mar  9 20:31:42 raspberrypi login[437]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 20:36:32 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/reboot
+Mar  9 20:36:32 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 20:36:47 raspberrypi systemd-logind[366]: New seat seat0.
+Mar  9 20:37:20 raspberrypi login[440]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 20:41:51 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/reboot
+Mar  9 20:41:51 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 20:42:04 raspberrypi systemd-logind[377]: New seat seat0.
+Mar  9 20:42:36 raspberrypi login[439]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 20:46:48 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/reboot
+Mar  9 20:46:48 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 20:47:03 raspberrypi systemd-logind[368]: New seat seat0.
+Mar  9 20:47:35 raspberrypi login[438]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 20:49:46 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/reboot
+Mar  9 20:49:46 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar  9 20:49:59 raspberrypi systemd-logind[367]: New seat seat0.
+Mar  9 20:50:31 raspberrypi login[440]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  9 21:17:01 raspberrypi CRON[610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  9 21:17:01 raspberrypi CRON[610]: pam_unix(cron:session): session closed for user root

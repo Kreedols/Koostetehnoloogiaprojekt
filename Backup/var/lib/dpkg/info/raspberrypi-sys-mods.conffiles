@@ -1,0 +1,5 @@
+/etc/modprobe.d/blacklist-rtl8192cu.conf
+/etc/modprobe.d/blacklist-rtl8xxxu.conf
+/etc/sudoers.d/010_pi-nopasswd
+/etc/sysctl.d/98-rpi.conf
+/etc/udev/rules.d/99-com.rules

@@ -1,0 +1,3 @@
+# Fortification has been explicitly disabled, as it breaks module
+# loading for some reason.
+libmikmod3: hardening-no-fortify-functions usr/lib/*/libmikmod.so.*

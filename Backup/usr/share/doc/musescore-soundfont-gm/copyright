@@ -1,0 +1,222 @@
+This package was debianized by Toby Smithe <tsmithe@ubuntu.com> on
+Thu, 22 Nov 2007 17:49:27 +0000.
+
+It was downloaded from <http://downloads.sourceforge.net/mscore> and
+repackaged as a gzipped tarball, with the mscore/mscore/data/piano1.sf2
+soundfont ("Gort's MiniPiano", which is non-free) and some files removed to
+sustain DFSG; see the get-orig-source rule and README.Debian for specifics.
+
+Upstream Author: 
+
+    Werner Schweer <ws@seh.de>
+
+Copyright: 
+
+    © 1992-2009  Werner Schweer and others
+    © 1992-2007  Trolltech ASA.
+    © 1995-1997  Peter Mattis, Spencer Kimball and Josh MacDonald
+    © 1998       Juergen Mueller And Sundry Contributors
+    © 1999-2001  Josh Green
+    © 2003 	     Mathias Lundgren
+    © 2003 	     Fons Adriaensen
+    © 2003 	     Peter Hanappe
+    © 2007 	     Dieter Krause
+
+mscore/demos:
+mscore/share/templates:
+mscore/test:
+mscore/mscore/fonts:
+ and their contents are
+   © Werner Schweer and others as above
+            (licensed GPLv2 as below)
+
+mscore/share/wallpaper/paper[45].png:
+   © 2008 Sun Microsystems, Inc.
+   © 2008 Toby Smithe
+    	    (licensed LGPLv3 as below)
+
+mscore/manual:
+ PDFs are exported directly from the Drupal website, to enable offline 
+ help. Until clarification, they are not included in these sources.
+ (See debian/patches/11-install-manual.dpatch and debian/rules)
+
+mscore/osdabzip:
+   © 2007 Angius Fabrizio (blue_death@users.sourceforge.net) 
+            (licensed GPLv2 as below)
+
+mscore/rtf2html:
+   © 2003 Valentin Lavrinenko, vlavrinenko@users.sourceforge.net
+   			(licensed LGPLv2.1 or later as below)
+
+mscore/fluid:
+   © 2003 Peter Hanappe and others
+            (licensed LGPLv2 or later as below)
+
+mscore/utils/OOoMuseScore:
+   © 2009 Jonas Nyström <jonasnys@gmail.com>
+   © 2006 Samuel Hartmann
+   © 2005 Geoffroy Piroux
+            (licensed GPLv2 as below)
+
+mscore/portmidi:
+   © 1999-2000 Ross Bencina and Phil Burk
+   © 2001-2006 Roger B. Dannenberg
+            (licensed MIT as below)
+
+mscore/singleapp:
+   © 2009 Nokia Corporation and/or its subsidiary(-ies). <qt-info@nokia.com>
+	    (licensed commercially, LGPLv2.1 (with exception), GPLv3 as below)
+
+mscore/manual/BeautifulSoup.py:
+   © 2004-2008 Leonard Richardson
+            (licensed BSD as below)
+            [BeautifulSoup is also provided in the `python-beautifulsoup`
+            [package, but for the minimal purposes of building the PDF manual,
+            [the extra work required to use that in this situation outweighs
+            [the miniscule benefit of using it.]
+
+mscore/share/sound/TimGM6mb.sf2:
+   © 2004 Tim Brechbill <http://www.timbrechbill.com>
+            (licensed GPLv2 as below)
+
+Licence GPLv2:
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License version 2.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    See /usr/share/common-licenses/GPL-2 for a copy of the License.
+
+Licence LGPLv2:
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Library General Public License
+    as published by the Free Software Foundation; either version 2 of
+    the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+
+    See /usr/share/common-licenses/LGPL-2 for a copy of the License.
+    
+Licence LGPLv2.1:
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+    
+    See /usr/share/common-licenses/LGPL-2.1 for a copy of the License.
+
+Nokia Qt LGPL Exception version 1.0:
+
+	As a special exception to the GNU Lesser General Public License
+	version 2.1, the object code form of a "work that uses the Library"
+	may incorporate material from a header file that is part of the
+	Library.  You may distribute such object code under terms of your
+	choice, provided that the incorporated material (i) does not exceed
+	more than 5% of the total size of the Library; and (ii) is limited to
+	numerical parameters, data structure layouts, accessors, macros,
+	inline functions and templates.
+
+Licence LGPLv3:
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public License, 
+    version 3 as published by the Free Software Foundation.
+
+    This library is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    See /usr/share/common-licenses/LGPL-3 for a copy of the License.
+
+Licence GPLv3:
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+    See /usr/share/common-licenses/GPL-3 for a copy of the License.
+
+Licence MIT:
+
+	Permission is hereby granted, free of charge, to any person
+	obtaining a copy of this software and associated documentation
+	files (the "Software"), to deal in the Software without
+	restriction, including without limitation the rights to use,
+	copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the
+	Software is furnished to do so, subject to the following
+	conditions:
+	
+	The above copyright notice and this permission notice shall be
+	included in all copies or substantial portions of the Software.
+	
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+	EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+	OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+	NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+	HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+	WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+	FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+	OTHER DEALINGS IN THE SOFTWARE.
+
+Licence BSD:
+
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are
+    met:
+    
+      * Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+    
+      * Redistributions in binary form must reproduce the above
+        copyright notice, this list of conditions and the following
+        disclaimer in the documentation and/or other materials provided
+        with the distribution.
+    
+      * Neither the name of the the Beautiful Soup Consortium and All
+        Night Kosher Bakery nor the names of its contributors may be
+        used to endorse or promote products derived from this software
+        without specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE, DAMMIT.
+
+
+The Debian packaging is © 2007-2009, Toby Smithe <tsmithe@ubuntu.com>
+and is licensed under the GPL (version 2 or later),
+see `/usr/share/common-licenses/GPL-2'.

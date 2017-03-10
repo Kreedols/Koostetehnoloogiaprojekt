@@ -1,0 +1,34 @@
+This package was debianized by Stefan Schwandter <swan@debian.org>
+
+It was downloaded from http://jackaudio.org/download
+
+Upstream Authors and Copyright: 
+
+Copyright (C) 2001-2009 Paul Davis
+
+JACK was inspired by and partially designed during discussions on the
+Linux Audio Developers mailing list. Particularly significant
+contributions to those discussions came from (in alphabetical order):
+
+    Paul Davis
+    David Olofson
+    Benno Sennoner
+    Kai Vehmanen
+    
+Many other members of LAD contributed ideas to JACK, particularly
+Richard Guenther.
+
+Paul Davis was the principal author of the JACK API and of the sample
+implementation contained here. Andy Wingo provided many small patches
+Fernando Pablo Lopez-Lezcano contributed the capabilities-based code.
+Jeremy Hall, Steve Harris, and Martin Boer contributed sample clients
+and utilities.
+
+Many others have contributed patches and/or test results.
+
+
+
+License:
+
+GPL version 2 or later, see /usr/share/common-licenses/GPL-2
+LGPL version 2.1 or later (libjack), see /usr/share/common-licenses/LGPL-2.1

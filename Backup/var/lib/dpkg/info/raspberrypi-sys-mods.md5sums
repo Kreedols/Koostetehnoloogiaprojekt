@@ -1,0 +1,9 @@
+f9da5c9d595334ef806a4138332d57fe  lib/systemd/system/rpi-display-backlight.service
+419ba60a1771020889e5e81099dd36e1  lib/systemd/system/sshswitch.service
+a0a30f073986b42f8333404468958948  lib/udev/rules.d/15-i2c-modprobe.rules
+c1fd281f142a2641f3e280d8662778e9  lib/udev/rules.d/15-rfkill.rules
+1b617fcf4f9de51bd06223504d3029f1  usr/lib/raspberrypi-sys-mods/i2cprobe
+d5bef0d1463096fb92c7da0f0049f36d  usr/lib/raspberrypi-sys-mods/rfkill-persist
+4d75f85d8f3cce52b012c29430952254  usr/share/doc/raspberrypi-sys-mods/NEWS.Debian.gz
+11c015de3290428bcb433d092ef45eef  usr/share/doc/raspberrypi-sys-mods/changelog.gz
+b5c3c8bb856fffaa0b83eaf6c7fffd08  usr/share/doc/raspberrypi-sys-mods/copyright

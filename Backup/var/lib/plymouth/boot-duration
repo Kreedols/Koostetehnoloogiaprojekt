@@ -1,0 +1,26 @@
+0.004:systemd-remount-fs.service
+0.007:plymouth-start.service
+0.010:systemd-random-seed.service
+0.031:systemd-fsck@dev-mmcblk0p1.service
+0.037:boot.mount
+0.054:systemd-tmpfiles-setup.service
+0.064:Configuring network interfaces
+0.066:Setting console screen modes
+0.074:systemd-update-utmp.service
+0.083:kbd.service
+0.088:raspi-config.service
+0.090:Setting up console font and keymap
+0.129:console-setup.service
+0.139:networking.service
+0.147:cron.service
+0.172:avahi-daemon.service
+0.172:dbus.service
+0.179:rsyslog.service
+0.188:systemd-logind.service
+0.189:triggerhappy.service
+0.199:var-swap.swap
+0.200:dphys-swapfile.service
+0.987:dhcpcd.service
+0.993:rc-local.service
+0.993:systemd-user-sessions.service
+0.999:Starting NTP server

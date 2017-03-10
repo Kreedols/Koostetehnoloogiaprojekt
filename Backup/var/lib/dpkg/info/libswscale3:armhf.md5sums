@@ -1,0 +1,7 @@
+aaa59ce2150418b1451c01460f411aa7  usr/lib/arm-linux-gnueabihf/libswscale.so.3.0.0
+8b858ece9a08d69ececf6df18670e697  usr/lib/arm-linux-gnueabihf/neon/vfp/libswscale.so.3.0.0
+7906be10ad1a6590b1828dca02678003  usr/share/doc/libswscale3/NEWS.Debian.gz
+8f9f39608e164c6a7731109be62d8c89  usr/share/doc/libswscale3/changelog.Debian.gz
+29d9f76b226013de3657a2d8d6a81f9e  usr/share/doc/libswscale3/changelog.gz
+323125fc98bc748defccc624b74fd752  usr/share/doc/libswscale3/copyright
+f0700de8ff4f7640646c2270dc6eebe2  usr/share/lintian/overrides/libswscale3

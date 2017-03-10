@@ -1,0 +1,12 @@
+dcc10d3830e3c3f0a8ede85bc8893220  usr/share/doc/omxplayer/README
+94d55d512a9ba36caa9b7df079bae19f  usr/share/doc/omxplayer/COPYING
+0a32ae279d9130c0f3548161dc705a69  usr/share/man/man1/omxplayer.1
+3233c0ce85ce6463e79c280197359873  usr/bin/omxplayer
+f38d77e47e306fa9e4e2c212af09b4c7  usr/bin/omxplayer.bin
+870fc7d8bd2427f9b38503fc5a42bd04  usr/lib/omxplayer/libavdevice.so.57.0.101
+f0eae188e16aa18dfa3398334ddd6ad6  usr/lib/omxplayer/libavformat.so.57.41.100
+b791283dad850ccba53c96e333ef528d  usr/lib/omxplayer/libavutil.so.55.28.100
+ceb162ffda8e084db3fc8dec8623dc9b  usr/lib/omxplayer/libavfilter.so.6.47.100
+99012a85c7338d29d5324fe56fd7e443  usr/lib/omxplayer/libswscale.so.4.1.100
+7e97ef9156de3726823de7124bb725aa  usr/lib/omxplayer/libswresample.so.2.1.100
+28872a3573699ba495788c677cb2c1c7  usr/lib/omxplayer/libavcodec.so.57.48.101
